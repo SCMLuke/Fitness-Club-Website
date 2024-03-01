@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+}
+body {
+    background-color: #415A77;
+}
+.fitness {
+    width: 500px;
+    height: 500px;
+}
+.fitnessDiv {
+    text-align: center;
+    color: #E0E1DD;
+}
+.introText {
+    margin-top: 32px;
+}
+.navbar {
+    color: #E0E1DD;
+    display: flex;
+    background: #0D1B2A;
+    align-items: center;
+    padding: 16px;
+}
+.links {
+    margin-left: auto;
+    margin-right: 24px;
+}
+.links a {
+    color: #E0E1DD;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.a:link{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/**/
+/* This is styling for the login/logged in page */
+/**/
+
+.loginCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 24px;
+}
+.loginCard h1 {
+    padding-bottom: 12px;
+}
+
+.login {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    background-color: #E0E1DD;
+    border-radius: 12px;
+}
+.login p {
+    padding-bottom: 12px;
+}
+.login a {
+    padding-bottom: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.loggedIn {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    background-color: #E0E1DD;
+    border-radius: 12px;
+}
+.loggedIn p {
+    padding-bottom: 12px;
+}
+.loggedIn a {
+    padding-bottom: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.loginPageDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+.loginPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 24px;
+    background-color: #E0E1DD;
+    width: 300px;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+.loginPage a {
+    color: black;
+    text-decoration: none;
+}
+.loginPage label {
+    padding-top: 12px;
+}
+.loginPage button {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/**/
+/* This is styling for the new person insertion pages */
+/**/
+
+.newPerson {
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.newPersonForm {
+    background-color: #E0E1DD;
+    padding: 24px;
+    border-radius: 12px;
+}
+.newPersonForm button {
+    margin-top: 12px;
+}
+.newPersonForm p {
+    padding-top: 12px;
+}
+.newPersonForm a {
+    color: black;
+    text-decoration: none;
+}
+.newPersonElement {
+    display: flex;
+    flex-direction: column;
+}
+.newPersonElement input {
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+/**/
+/* This is styling for the table pages */
+/**/
+
+.tableDiv {
+    color: #0D1B2A;
+    background-color: #E0E1DD;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.table, .table td {
+    border: 2px solid;
+    border-color: #0D1B2A;
+}
+.tableButtons {
+    color: black;
+    text-decoration: none;
+}
+.editPerson input {
+    align-items: center;
+    text-align: center;
+}
+.editElement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.editElement input {
+    padding: 8px;
+}
+.editInformation {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.editInformation a {
+    color: black;
+    text-decoration: none;
+}
+.editInformation p {
+    padding: 8px;
+}
+.editInformationForm {
+    border-radius: 12px;
+    padding: 24px;
+    color: #0D1B2A;
+    background-color: #E0E1DD;
+    margin: auto;
+}
+.updateButton {
+    padding: 8px;
+}
+
