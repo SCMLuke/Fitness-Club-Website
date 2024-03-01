@@ -176,12 +176,13 @@ if (isset($_GET["id"])) {
 
                 </form>
             </div>
-            <p><a href="index.php">Return to index</a></p>
         </div>
     <?php
 }
 ?>
-
+<div class="returnButton">
+    <p><a href="index.php">Return to index</a></p>
+</div>
 
 
 </body>

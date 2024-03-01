@@ -184,14 +184,13 @@ if (isset($_GET["id"])) {
                     <input class="updateButton" type="submit" value="Update">
                 </form>
             </div>
-            <p><a href="index.php">Return to index</a></p>
         </div>
     <?php
     }
     ?>
-
-
-
+<div class="returnButton">
+    <p><a href="index.php">Return to index</a></p>
+</div>
 </body>
 </html>
 <?php
